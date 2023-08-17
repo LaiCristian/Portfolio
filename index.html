@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Musical Piano</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" href="Img/piano_icon.png" />
+</head>
+<body>
+    <div class = "container">
+        <div class = "alert">Choose song</div>
+        <span class = "counterStyle active" id = "counter">3</span>
+        <div class = "piano_board">
+            <div class = "name">Musical Piano</div>
+            <div class = "playground active">
+                
+            </div>
+            <div class = "piano_claps">
+                <div class = "clap"><p class = "notes active">C2</p><p class = "contr active" id = "songcontr">`</p>
+                    <audio id = "c2" preload="auto" src="Sounds/C2.mp3">
+                    </audio>
+                </div>
+                <div class = "black_clap"><p class = "contr black active" id = "songcontr">1</p>
+                    <audio id = "c2#" preload="auto" src = "Sounds/C2_Black.mp3">
+                    </audio>
+                </div>
+                <div class = "clap"><p class = "notes active">D2</p><p class = "contr active" id = "songcontr">2</p>
+                    <audio id = "d2" preload="auto" src = "Sounds/D2_Bass.mp3">
+                    </audio>
+                </div>
+                <div class = "black_clap"><p class = "contr black active" id = "songcontr">3</p>
+                    <audio id = "d2#" preload="auto" src = "Sounds/D2_Black.mp3">
+                    </audio>
+                </div>
+                <div class = "clap"><p class = "notes active">E2</p><p class = "contr active" id = "songcontr">4</p>
+                    <audio id = "e2" preload="auto" src = "Sounds/E2.mp3">
+                    </audio>
+                </div>
+                <div class = "clap"><p class = "notes active">F2</p><p class = "contr active" id = "songcontr">5</p>
+                    <audio id = "f2" preload="auto" src = "Sounds/F2.mp3">
+                    </audio>
+                </div>
+                <div class = "black_clap"><p class = "contr black active" id = "songcontr">6</p>
+                    <audio id = "f2#" preload="auto" src = "Sounds/F2_Black.mp3">
+                    </audio>
+                </div>
+                <div class = "clap"><p class = "notes active">G2</p><p class = "contr active" id = "songcontr">7</p>
+                    <audio id = "g2" preload="auto" src = "Sounds/G2.mp3">
+                    </audio>
+                </div>
+                <div class = "black_clap"><p class = "contr black active" id = "songcontr">8</p>
+                    <audio id = "g2#" preload="auto" src = "Sounds/G2_Black.mp3">
+                    </audio>
+                </div>
+                <div class = "clap"><p class = "notes active">A2</p><p class = "contr active" id = "songcontr">9</p>
+                    <audio id = "a2" preload="auto" src = "Sounds/A2.mp3">
+                    </audio>
+                </div>
+                <div class = "black_clap"><p class = "contr black active" id = "songcontr">0</p>
+                    <audio id = "a2#" preload="auto" src = "Sounds/A2_Black.mp3">
+                    </audio>
+                </div>
+                <div class = "clap"><p class = "notes active">B2</p><p class = "contr active" id = "songcontr">-</p>
+                    <audio id = "b2" preload="auto" src = "Sounds/B2.mp3">
+                    </audio>
+                </div>
+                <div class = "clap"><p class = "notes active">C3</p><p class = "contr active" id = "songcontr">=</p>
+                    <audio id = "c3" preload="auto" src="Sounds/C3.mp3">
+                    </audio>
+                </div>
+                <div class = "black_clap"><p class = "contr black active" id = "songcontr">⌫</p>
+                    <audio id = "c3#" preload="auto" src = "Sounds/C3_Black.mp3">
+                    </audio>
+                </div>
+                <div class = "clap"><p class = "notes active">D3</p><p class = "contr active" id = "songcontr">Q</p>
+                    <audio id = "d3" preload="auto" src = "Sounds/D3.mp3">
+                    </audio>
+                </div>
+                <div class = "black_clap"><p class = "contr black active" id = "songcontr">W</p>
+                    <audio id = "d3#" preload="auto" src = "Sounds/D3_Black.mp3">
+                    </audio>
+                </div>
+                <div class = "clap"><p class = "notes active">E3</p><p class = "contr active" id = "songcontr">E</p>
+                    <audio id = "e3" preload="auto" src = "Sounds/E3.mp3">
+                    </audio>
+                </div>
+                <div class = "clap"><p class = "notes active">F3</p><p class = "contr active" id = "songcontr">R</p>
+                    <audio id = "f3" preload="auto" src = "Sounds/F3.mp3">
+                    </audio>
+                </div>
+                <div class = "black_clap"><p class = "contr black active" id = "songcontr">T</p>
+                    <audio id = "f3#" preload="auto" src = "Sounds/F3_Black.mp3">
+                    </audio>
+                </div>
+                <div class = "clap"><p class = "notes active">G3</p><p class = "contr active" id = "songcontr">Y</p>
+                    <audio id = "g3" preload="auto" src = "Sounds/G3.mp3">
+                    </audio>
+                </div>
+                <div class = "black_clap"><p class = "contr black active" id = "songcontr">U</p>
+                    <audio id = "g3#" preload="auto" src = "Sounds/G3_Black.mp3">
+                    </audio>
+                </div>
+                <div class = "clap"><p class = "notes active">A3</p><p class = "contr active" id = "songcontr">I</p>
+                    <audio id = "a3" preload="auto" src = "Sounds/A3.mp3">
+                    </audio>
+                </div>
+                <div class = "black_clap"><p class = "contr black active" id = "songcontr">O</p>
+                    <audio id = "a3#" preload="auto" src = "Sounds/A3_Black.mp3">
+                    </audio>
+                </div>
+                <div class = "clap"><p class = "notes active">B3</p><p class = "contr active" id = "songcontr">P</p>
+                    <audio id = "b3" preload="auto" src = "Sounds/B3.mp3">
+                    </audio>
+                </div>
+                <div class = "clap"><p class = "notes active">C4</p><p class = "contr active" id = "songcontr">[</p>
+                    <audio id = "c4" preload="auto" src = "Sounds/C4.mp3">
+                    </audio>
+                </div>
+                <div class = "black_clap"><p class = "contr black active" id = "songcontr">]</p>
+                    <audio id = "c4#" preload="auto" src = "Sounds/C4_Black.mp3">
+                    </audio>
+                </div>
+                <div class = "clap"><p class = "notes active">D4</p><p class = "contr active" id = "songcontr">\</p>
+                    <audio id = "d4" preload="auto" src = "Sounds/D4.mp3">
+                    </audio>
+                </div>
+                <div class = "black_clap"><p class = "contr black active" id = "songcontr">A</p>
+                    <audio id = "d4#" preload="auto" src = "Sounds/D4_Black.mp3">
+                    </audio>
+                </div>
+                <div class = "clap"><p class = "notes active">E4</p><p class = "contr active" id = "songcontr">S</p>
+                    <audio id = "e4" preload="auto" src = "Sounds/E4.mp3">
+                    </audio>
+                </div>
+                <div class = "clap"><p class = "notes active">F4</p><p class = "contr active" id = "songcontr">D</p>
+                    <audio id = "f4" preload="auto" src = "Sounds/F4.mp3">
+                    </audio>
+                </div>
+                <div class = "black_clap"><p class = "contr black active" id = "songcontr">F</p>
+                    <audio id = "f4#" preload="auto" src = "Sounds/F4_Black.mp3">
+                    </audio>
+                </div>
+                <div class = "clap"><p class = "notes active">G4</p><p class = "contr active" id = "songcontr">G</p>
+                    <audio id = "g4" preload="auto" src = "Sounds/G4.mp3">
+                    </audio>
+                </div>
+                <div class = "black_clap"><p class = "contr black active" id = "songcontr">H</p>
+                    <audio id = "g4#" preload="auto" src = "Sounds/G4_Black.mp3">
+                    </audio>
+                </div>
+                <div class = "clap"><p class = "notes active">A4</p><p class = "contr active" id = "songcontr">J</p>
+                    <audio id = "a4" preload="auto" src = "Sounds/A4.mp3">
+                    </audio>
+                </div>
+                <div class = "black_clap"><p class = "contr black active" id = "songcontr">K</p>
+                    <audio id = "a4#" preload="auto" src = "Sounds/A4_Black.mp3">
+                    </audio>
+                </div>
+                <div class = "clap"><p class = "notes active">B4</p><p class = "contr active" id = "songcontr">L</p>
+                    <audio id = "b4" preload="auto" src = "Sounds/B4.mp3">
+                    </audio>
+                </div>
+                <div class = "clap"><p class = "notes active">C5</p><p class = "contr active" id = "songcontr">;</p>
+                    <audio id = "c5" preload="auto" src = "Sounds/C5.mp3">
+                    </audio>
+                </div>
+                <div class = "black_clap"><p class = "contr black active" id = "songcontr">'</p>
+                    <audio id = "c5#" preload="auto" src = "Sounds/C5_Black.mp3">
+                    </audio>
+                </div>
+                <div class = "clap"><p class = "notes active">D5</p><p class = "contr active" id = "songcontr">⏎</p>
+                    <audio id = "d5" preload="auto" src = "Sounds/D5.mp3">
+                    </audio>
+                </div>
+                <div class = "black_clap"><p class = "contr black active" id = "songcontr">Z</p>
+                    <audio id = "d5#" preload="auto" src = "Sounds/D5_Black.mp3">
+                    </audio>
+                </div>
+                <div class = "clap"><p class = "notes active">E5</p><p class = "contr active" id = "songcontr">X</p>
+                    <audio id = "e5" preload="auto" src = "Sounds/E5.mp3">
+                    </audio>
+                </div>
+                <div class = "clap"><p class = "notes active">F5</p><p class = "contr active" id = "songcontr">C</p>
+                    <audio id = "f5" preload="auto" src = "Sounds/F5.mp3">
+                    </audio>
+                </div>
+                <div class = "black_clap"><p class = "contr black active" id = "songcontr">V</p>
+                    <audio id = "f5#" preload="auto" src = "Sounds/F5_Black.mp3">
+                    </audio>
+                </div>
+                <div class = "clap"><p class = "notes active">G5</p><p class = "contr active" id = "songcontr">B</p>
+                    <audio id = "g5" preload="auto" src = "Sounds/G5.mp3">
+                    </audio>
+                </div>
+                <div class = "black_clap"><p class = "contr black active" id = "songcontr">N</p>
+                    <audio id = "g5#" preload="auto" src = "Sounds/G5_Black.mp3">
+                    </audio>
+                </div>
+                <div class = "clap"><p class = "notes active">A5</p><p class = "contr active" id = "songcontr">M</p>
+                    <audio id = "a5" preload="auto" src = "Sounds/A5.mp3">
+                    </audio>
+                </div>
+                <div class = "black_clap"><p class = "contr black active" id = "songcontr">,</p>
+                    <audio id = "a5#" preload="auto" src = "Sounds/A5_Black.mp3">
+                    </audio>
+                </div>
+                <div class = "clap"><p class = "notes active">B5</p><p class = "contr active" id = "songcontr">.</p>
+                    <audio id = "b5" preload="auto" src = "Sounds/B5.mp3">
+                    </audio>
+                </div>
+                <div class = "clap"><p class = "notes active">C6</p><p class = "contr active" id = "songcontr">/</p>
+                    <audio id = "c6" preload="auto" src = "Sounds/C6.mp3">
+                    </audio>
+                </div>
+            </div>
+            <div class = "instruct_bar">
+                <div class = "instruct"><p class = "inst_txt">Notes</p></div>
+                <div class = "controls"><p class = "controls_txt">Controls</p></div>
+                <div class = "song" onclick="startSong()"><p class = "song_txt">Play Song</p></div>
+                <div class="custom-select">
+                    <select id = "difficulty" onchange="getDifficulty()">
+                      <option value="0">Manual</option>
+                      <option value="1">Auto Easy</option>
+                      <option value="2">Auto Medium</option>
+                      <option value="3">Auto Hard</option>
+                    </select>
+                    <span class = "custom-arrow"></span>
+                </div>
+                <div class="custom-select2">
+                    <select id = "song_choice" onchange="getSong()">
+                      <option value="0">Choose Song</option>
+                      <option value="1">The Night We Met</option>
+                    </select>
+                    <span class = "custom-arrow"></span>
+                </div>
+                <div class="custom-select">
+                    <select id = "sustain" onchange="sustainF()">
+                      <option value="150">Sustain</option>
+                      <option value="1000">1 second</option>
+                      <option value="2000">2 seconds</option>
+                      <option value="3000">3 seconds</option>
+                    </select>
+                    <span class = "custom-arrow"></span>
+                </div>
+                <div class="instruct">
+                    <p class = "controls_txt">Choose Color</p>
+                    <input type="color" id="colorPicker">
+                </div>
+            </div> 
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tinycolor/1.4.2/tinycolor.min.js"></script>
+    <script src="https://unpkg.com/web-audio-daw"></script>
+    <script src="app.js"></script>
+</body>
+</html>
