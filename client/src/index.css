@@ -1,0 +1,19 @@
+body{
+  background-color: black;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@font-face {
+  font-family: Lux;
+  src: url("/public/Fonts/CinzelDecorative-Regular.otf");
+}
+
+#root{
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  box-sizing: border-box;
+}
